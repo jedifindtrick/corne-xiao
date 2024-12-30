@@ -521,391 +521,6 @@
 				)
 			)
 		)
-		(symbol "Device:RotaryEncoder_Switch"
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 2.667)
-					(mid -3.0988 -0.0635)
-					(end -0.381 -2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3175,16 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.484 205.486) (xy 66.04 205.486)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf5a66f-b899-4ab3-8ea3-326a125550c8")
-	)
-	(wire
-		(pts
 			(xy 244.2011 262.636) (xy 277.2211 262.636)
 		)
 		(stroke
@@ -3362,16 +2967,6 @@
 			(type default)
 		)
 		(uuid "2bc37a5e-0dec-4402-b811-cebc7e7a430e")
-	)
-	(wire
-		(pts
-			(xy 252.73 205.486) (xy 258.1711 205.486)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3443a1-6e06-4762-b5b8-0692a3f43683")
 	)
 	(wire
 		(pts
@@ -3585,16 +3180,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 208.026) (xy 71.4811 208.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e995f8-846d-4173-b928-9e06ea802da1")
-	)
-	(wire
-		(pts
 			(xy 58.42 49.276) (xy 60.96 49.276)
 		)
 		(stroke
@@ -3612,16 +3197,6 @@
 			(type default)
 		)
 		(uuid "4bcefeaf-1c89-475c-a8a7-1659a328d821")
-	)
-	(wire
-		(pts
-			(xy 66.04 205.486) (xy 66.04 208.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d36f0c9-58c6-4f0a-850f-990fdf4195fd")
 	)
 	(wire
 		(pts
@@ -3735,16 +3310,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 215.646) (xy 258.1711 215.646)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f826a81-bf2b-4eb6-a73f-108e3d24d1fb")
-	)
-	(wire
-		(pts
 			(xy 302.26 121.666) (xy 302.26 129.286)
 		)
 		(stroke
@@ -3802,16 +3367,6 @@
 			(type default)
 		)
 		(uuid "64fa49c4-470c-4a5f-89e4-7964e12c51d5")
-	)
-	(wire
-		(pts
-			(xy 279.7611 213.106) (xy 281.94 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6519bbf6-d2b0-40c9-b7d0-b9676f44d370")
 	)
 	(wire
 		(pts
@@ -3905,16 +3460,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.1711 208.026) (xy 258.1711 205.486)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f61779d-a667-4626-90c9-59f1a65ecee8")
-	)
-	(wire
-		(pts
 			(xy 152.4 136.906) (xy 170.18 136.906)
 		)
 		(stroke
@@ -3995,16 +3540,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.1711 215.646) (xy 258.1711 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b26f773-4983-48d0-89c4-f18934228c68")
-	)
-	(wire
-		(pts
 			(xy 244.2011 229.616) (xy 277.2211 229.616)
 		)
 		(stroke
@@ -4035,16 +3570,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.7611 208.026) (xy 282.3011 208.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b92891-79b6-4220-bc8e-bb1bdaa7a03a")
-	)
-	(wire
-		(pts
 			(xy 255.524 41.402) (xy 258.064 41.402)
 		)
 		(stroke
@@ -4072,16 +3597,6 @@
 			(type default)
 		)
 		(uuid "9c244182-d0cf-4947-8f2b-5dc688e8e2fb")
-	)
-	(wire
-		(pts
-			(xy 66.4011 215.646) (xy 66.4011 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbef140-faa1-4c32-8f70-93620830974d")
 	)
 	(wire
 		(pts
@@ -4212,16 +3727,6 @@
 			(type default)
 		)
 		(uuid "ae4dbb43-2abc-470b-bb69-e289cf0d6c6c")
-	)
-	(wire
-		(pts
-			(xy 66.4011 213.106) (xy 71.4811 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae573de8-31a9-4d78-ae1b-8af7e8858889")
 	)
 	(wire
 		(pts
@@ -4425,16 +3930,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.484 215.646) (xy 66.4011 215.646)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65b34e4-8b62-43c3-b579-7d669b4776a0")
-	)
-	(wire
-		(pts
 			(xy 137.16 121.666) (xy 137.16 129.286)
 		)
 		(stroke
@@ -4525,16 +4020,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.5211 208.026) (xy 258.1711 208.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e108c92e-a482-4a58-9593-7f0a908b209e")
-	)
-	(wire
-		(pts
 			(xy 116.84 167.386) (xy 134.62 167.386)
 		)
 		(stroke
@@ -4542,16 +4027,6 @@
 			(type default)
 		)
 		(uuid "e1f77f52-593a-480b-a522-b046b6781925")
-	)
-	(wire
-		(pts
-			(xy 88.9 208.026) (xy 86.7211 208.026)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e51c1650-e07f-4339-858f-15bb5d188d11")
 	)
 	(wire
 		(pts
@@ -4572,16 +4047,6 @@
 			(type default)
 		)
 		(uuid "e65da4f4-fac1-465f-b923-a02c408de088")
-	)
-	(wire
-		(pts
-			(xy 86.7211 213.106) (xy 88.9 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a52221-3e6d-4e63-aa52-4529e3ef2e2b")
 	)
 	(wire
 		(pts
@@ -4655,16 +4120,6 @@
 	)
 	(wire
 		(pts
-			(xy 258.1711 213.106) (xy 264.5211 213.106)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efad1311-d894-4086-ba21-ad31aa500a89")
-	)
-	(wire
-		(pts
 			(xy 278.384 62.992) (xy 278.384 66.802)
 		)
 		(stroke
@@ -4702,16 +4157,6 @@
 			(type default)
 		)
 		(uuid "f2983279-1224-4aae-bb2d-a70185e7b13c")
-	)
-	(wire
-		(pts
-			(xy 63.754 210.566) (xy 71.4811 210.566)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b33593-2ece-4e33-9c42-dc4b199e1a27")
 	)
 	(wire
 		(pts
@@ -4812,16 +4257,6 @@
 			(type default)
 		)
 		(uuid "fd8dd11b-d766-43a7-af0b-f6695e4da9f1")
-	)
-	(wire
-		(pts
-			(xy 252.73 210.566) (xy 264.5211 210.566)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff1a5dc8-b622-486e-910d-8b222a8a0450")
 	)
 	(global_label "ROW3_R"
 		(shape input)
@@ -5153,50 +4588,6 @@
 			)
 		)
 	)
-	(global_label "SW43A"
-		(shape input)
-		(at 282.3011 208.026 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "466b8c09-059a-4b18-962c-d5f61faa3a20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.4548 208.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_R"
-		(shape input)
-		(at 252.73 205.486 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fb76db0-f826-4a1f-959b-2bcaf4b8cb05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9391 205.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT_R"
 		(shape input)
 		(at 262.89 94.996 0)
@@ -5276,50 +4667,6 @@
 		(uuid "5819e34e-86d4-4ff9-a178-7bbd8b9d1fc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.4704 231.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA_L"
-		(shape input)
-		(at 62.484 205.486 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a60d20c-4833-4e42-9670-05994282a74a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.935 205.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW44A"
-		(shape input)
-		(at 88.9 208.026 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5d61f940-f861-4f13-9484-5151270048f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0537 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,28 +4918,6 @@
 			)
 		)
 	)
-	(global_label "SCL_R"
-		(shape input)
-		(at 252.73 215.646 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7fd7fcb7-8768-45cc-a67f-8a6f5b769c2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.9996 215.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL2_L"
 		(shape input)
 		(at 106.68 46.736 0)
@@ -5611,28 +4936,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_L"
-		(shape input)
-		(at 62.484 215.646 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81042eac-0131-4ff1-8d66-1ab0bdd9eaba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.9955 215.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6143,28 +5446,6 @@
 			)
 		)
 	)
-	(global_label "SW44B"
-		(shape input)
-		(at 88.9 213.106 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4337f50-50a5-4e2c-b9ad-194272bb241c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.2351 213.106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL3_R"
 		(shape input)
 		(at 302.26 121.666 90)
@@ -6178,28 +5459,6 @@
 		(uuid "d79919d3-4661-463e-9176-29d997b69c62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 302.26 111.0449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SW43B"
-		(shape input)
-		(at 281.94 213.106 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0283668-fe9d-4445-8aa8-2ea9a093570e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.2751 213.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +5691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 91.44 129.286 0)
 			(effects
 				(font
@@ -6565,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 109.22 129.286 0)
 			(effects
 				(font
@@ -6698,7 +5957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 127 129.286 0)
 			(effects
 				(font
@@ -6764,7 +6023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 144.78 129.286 0)
 			(effects
 				(font
@@ -6830,7 +6089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 162.56 129.286 0)
 			(effects
 				(font
@@ -7097,7 +6356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 73.66 129.286 0)
 			(effects
 				(font
@@ -7230,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 91.44 144.526 0)
 			(effects
 				(font
@@ -7363,7 +6622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 109.22 144.526 0)
 			(effects
 				(font
@@ -7496,7 +6755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 127 144.526 0)
 			(effects
 				(font
@@ -7562,7 +6821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 144.78 144.526 0)
 			(effects
 				(font
@@ -7628,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 162.56 144.526 0)
 			(effects
 				(font
@@ -7895,7 +7154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 73.66 144.526 0)
 			(effects
 				(font
@@ -8028,7 +7287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 91.44 159.766 0)
 			(effects
 				(font
@@ -8161,7 +7420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 109.22 159.766 0)
 			(effects
 				(font
@@ -8294,7 +7553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 127 159.766 0)
 			(effects
 				(font
@@ -8360,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 144.78 159.766 0)
 			(effects
 				(font
@@ -8426,7 +7685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 162.56 159.766 0)
 			(effects
 				(font
@@ -8693,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 73.66 159.766 0)
 			(effects
 				(font
@@ -8826,7 +8085,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 127 175.006 0)
 			(effects
 				(font
@@ -8959,7 +8218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap_1.5u"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 144.78 175.006 0)
 			(effects
 				(font
@@ -9092,7 +8351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 109.22 175.006 0)
 			(effects
 				(font
@@ -9225,7 +8484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 274.32 129.286 0)
 			(effects
 				(font
@@ -9358,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 292.1 129.286 0)
 			(effects
 				(font
@@ -9491,7 +8750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 309.88 129.286 0)
 			(effects
 				(font
@@ -9557,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 327.66 129.286 0)
 			(effects
 				(font
@@ -9623,7 +8882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 345.44 129.286 0)
 			(effects
 				(font
@@ -9890,7 +9149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 256.54 129.286 0)
 			(effects
 				(font
@@ -10023,7 +9282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 274.32 144.526 0)
 			(effects
 				(font
@@ -10156,7 +9415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 292.1 144.526 0)
 			(effects
 				(font
@@ -10289,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 309.88 144.526 0)
 			(effects
 				(font
@@ -10355,7 +9614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 327.66 144.526 0)
 			(effects
 				(font
@@ -10421,7 +9680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 345.44 144.526 0)
 			(effects
 				(font
@@ -10688,7 +9947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 256.54 144.526 0)
 			(effects
 				(font
@@ -10821,7 +10080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 274.32 159.766 0)
 			(effects
 				(font
@@ -10954,7 +10213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 292.1 159.766 0)
 			(effects
 				(font
@@ -11087,7 +10346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 309.88 159.766 0)
 			(effects
 				(font
@@ -11153,7 +10412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 327.66 159.766 0)
 			(effects
 				(font
@@ -11219,7 +10478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 345.44 159.766 0)
 			(effects
 				(font
@@ -11486,7 +10745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 256.54 159.766 0)
 			(effects
 				(font
@@ -11619,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 309.88 175.006 0)
 			(effects
 				(font
@@ -11752,7 +11011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap_1.5u"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 327.66 175.006 0)
 			(effects
 				(font
@@ -11885,7 +11144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kbd:CherryMX_Hotswap"
+		(property "Footprint" "keeb_switches:CPG1316S01D02_mikeholscher"
 			(at 292.1 175.006 0)
 			(effects
 				(font
@@ -12760,89 +12019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 79.1011 210.566 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "368c2434-e06a-40d6-af3b-89e48d12d4e2")
-		(property "Reference" "SW44"
-			(at 79.1011 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 79.1011 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fp:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
-			(at 75.2911 206.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 79.1011 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 79.1011 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "13b108f3-8b39-4849-a784-7f1c6f994dcc")
-		)
-		(pin "B"
-			(uuid "d1e83c1a-6588-4af4-9377-70b4bf9fbdbb")
-		)
-		(pin "C"
-			(uuid "74e9dd7b-4e81-408e-8f69-587ca696df2d")
-		)
-		(pin "S1"
-			(uuid "c07b2728-be35-408b-a635-32da5cca055c")
-		)
-		(pin "S2"
-			(uuid "1db3c800-8ebb-4d2a-a8fa-09bb7f8e4457")
-		)
-		(instances
-			(project "corne-xiao"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW44")
-					(unit 1)
-				)
-			)
-			(project "klein"
-				(path "/e1b1abe5-5491-4087-b50c-e13b037b3068"
-					(reference "SW16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 91.186 270)
 		(unit 1)
@@ -13045,73 +12221,6 @@
 			(project "corne-xiao"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.754 210.566 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5209ec3b-19de-4682-8b42-ffd8b62e0822")
-		(property "Reference" "#PWR027"
-			(at 57.404 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.944 210.566 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.754 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.754 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.754 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12e7f5c4-4397-4b72-b243-bbaabd262273")
-		)
-		(instances
-			(project "corne-xiao"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13447,73 +12556,6 @@
 			(project "corne-xiao"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "#FLG025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 252.73 210.566 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ecccc41-0f85-4985-bd76-b9b425748cad")
-		(property "Reference" "#PWR05"
-			(at 246.38 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 248.412 210.566 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a9a77da-3d42-4964-945d-395f977f4325")
-		)
-		(instances
-			(project "corne-xiao"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14482,89 +13524,6 @@
 			(project "corne-xiao"
 				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 272.1411 210.566 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac5713ba-8a54-4b9a-a18b-0d99afde5c2e")
-		(property "Reference" "SW43"
-			(at 272.1411 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch"
-			(at 272.1411 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "fp:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
-			(at 268.3311 206.502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 272.1411 203.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 272.1411 210.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "7bb15dc6-c77e-44d3-b210-e88160d61f48")
-		)
-		(pin "B"
-			(uuid "f4bd5295-c2ef-4a18-85ea-7a9a1e583c7f")
-		)
-		(pin "C"
-			(uuid "5b65e4a4-51d9-40c0-82b0-88b36ce7c887")
-		)
-		(pin "S1"
-			(uuid "804b37e2-dcce-4f9a-8656-16b39d40c7c3")
-		)
-		(pin "S2"
-			(uuid "3253660d-6285-49b9-bc9c-45d8232d2c27")
-		)
-		(instances
-			(project "corne-xiao"
-				(path "/4cc5d416-57f5-4147-8183-e03ae6b1198a"
-					(reference "SW43")
-					(unit 1)
-				)
-			)
-			(project "klein"
-				(path "/e1b1abe5-5491-4087-b50c-e13b037b3068"
-					(reference "SW16")
 					(unit 1)
 				)
 			)
